@@ -1,0 +1,27 @@
+.footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px 0px 100px;
+}
+.mark{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2A2A2A;;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.dis{
+    padding-left: 30px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+}
+.social{
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,24 @@
+.heading_client_server{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 2fr 2fr 3fr 1fr;
+    gap: 30px;
+    margin-left: 20px;
+}
+
+.heading_client_server div{
+    font-size: 18px;
+    font-weight: 600;
+}
+.contact_us_detail{
+     display: grid;
+    grid-template-columns: 1fr 1fr 2fr 2fr 2fr 3fr 1fr;
+    gap: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.contact_us_detail div{
+    font-size: 18px;
+}
+.client_cross{
+    cursor: pointer;
+}

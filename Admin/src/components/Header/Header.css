@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0px 60px 0px 60px; 
+    border-bottom: 1px solid black;
+    background-color: rgb(245, 243, 241);
+}
+.navbar-logo{
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(235, 144, 41);
+}
+.navbar-links{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+.navbar-links li a {
+  color: rgba(24, 24, 24, 0.981);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+.navbar-links li a:hover {
+     color: rgb(235, 144, 41);
+}
+.active{
+  color: rgb(177, 131, 79); 
+}
+.logo{
+  height: 90px;
+}

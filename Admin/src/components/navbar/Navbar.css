@@ -1,0 +1,22 @@
+.Navbar_cantainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 70px;
+    font-size: 20px;
+}
+.Navbar_cantainer div{
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.Navbar_cantainer div:hover{
+background-color: rgb(195, 194, 193);
+    cursor: pointer;
+    color:  black;
+}
+.active1{ 
+    background-color: rgb(195, 194, 193);
+    cursor: pointer;
+    color:  black;
+}

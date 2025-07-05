@@ -1,0 +1,48 @@
+.servicePage_card{
+    display: flex;
+    justify-content: space-between;
+}
+.servicePage_name{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+    padding-left: 10px;
+}
+.servicePage_discription{
+    font-size: 19px;
+    padding: 20px;
+    line-height: 1.2;
+}
+.servicePage_card_container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 100px;
+}
+.servicePage_card_img{
+    width: 650px;
+    height: 400px;
+}
+.contact_Us_btn{
+    padding: 13px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #01457f;
+}
+.contact_Us_btn:hover{
+    background-color: #01447ff0;
+    cursor: pointer;
+}
+.contact_Us_btn a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.servicePage_contact_us{
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+    align-items: end;
+    height: 170px;
+}

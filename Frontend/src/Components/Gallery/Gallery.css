@@ -1,0 +1,10 @@
+.main_container_gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 50px ;
+}
+.gallery_container img{
+    width: 415px;
+    height: 300px;
+}
